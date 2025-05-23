@@ -1,0 +1,12 @@
+:root{
+    --fs-links:2.5rem;
+    --fs-primary:1.5rem;
+    --fs-titulo:6rem;
+    --fs-sub-titulo:3rem;
+    --fs-titulo-mobile:3rem;
+    --fs-text-mobile: 2rem;
+    --text-main: #EDEDED;
+    --bg-primary: #121212;
+    --color-accent: #00BFFF;
+    --bg-secondary: #1E1E1E;
+}
