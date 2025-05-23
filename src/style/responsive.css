@@ -1,0 +1,83 @@
+/*cabecalho */
+@media (max-width:768px) {
+    .links-nevacacao{
+        flex-direction: column;
+        position: absolute;
+        background-color: black;
+        top: 100%;
+        left: 65%;
+        width: 35%;
+        padding: 1rem 0;
+        height: 300px;
+        display: none;
+        transition: 0.3s;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 10px;
+        color: var(--text-main);
+      }
+
+      #menu-toggle:checked ~ .links-nevacacao{
+        display: flex;
+      }
+
+    
+}
+
+/* main*/
+@media (max-width:768px) {
+  .conteudo-principal{
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+}
+}
+
+
+
+
+/* seção 1 */
+@media (max-width: 768px) {
+  .bem-vindo{
+    min-height: 85vh;
+  }
+
+  .bem-vindo h1{
+    font-size: var(--fs-titulo-mobile);
+    text-align: center;
+  }
+}
+
+/* secão 2 */
+
+@media (max-width: 768px) {
+  .sobre-mim{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    padding: 0;
+  }
+
+  .info-sobre-mim p, h1,
+  .info-sobre-mim li{
+    font-size: var(--fs-text-mobile);
+    padding: 0;
+  }
+
+  .contato{
+    grid-row: 3/4;
+    grid-column: 1/-1;
+  }
+
+  .icone ul{
+    gap: 2.5rem;
+  }
+
+  /* secão 3 */
+  .imagem{
+    margin: 0 auto;
+  }
+
+}
+
+

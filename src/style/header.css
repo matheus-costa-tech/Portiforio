@@ -1,0 +1,48 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    position: relative;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+    overflow: hidden;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+.menu-icon {
+    font-size: 5rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+
+.links-nevacacao{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    list-style: none;
+}
+
+.links-nevacacao a{
+    text-decoration: none;
+    font-size: var(--fs-links);
+    color: var(--text-main);
+    transition: 0.3s;
+}
+
+.links-nevacacao a:hover{
+    color: var(--color-accent);
+}
