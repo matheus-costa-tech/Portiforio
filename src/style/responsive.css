@@ -64,6 +64,10 @@
     padding: 0;
   }
 
+  .linguagens{
+    flex-direction: column;
+  }
+
   .contato{
     grid-row: 3/4;
     grid-column: 1/-1;
@@ -72,6 +76,8 @@
   .icone ul{
     gap: 2.5rem;
   }
+
+
 
   /* secão 3 */
   .imagem{
